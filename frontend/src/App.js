@@ -179,7 +179,7 @@ export default function App() {
 
             }, 10000)}
 
-            onPointerUpdate={(payload) => console.log("payload : ", payload)}
+            
             onCollabButtonClick={() =>
               window.alert("You clicked on collab button")
             }
