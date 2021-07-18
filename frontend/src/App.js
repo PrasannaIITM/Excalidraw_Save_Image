@@ -173,6 +173,7 @@ export default function App() {
               let url = 'http://localhost:8000/api/posts/';
               axios.post(url, form_data)
                 .then(res => {
+                  console.log("Image sent to server for uploading")
                   console.log(res.data);
                 })
                 .catch(err => console.log(err))
